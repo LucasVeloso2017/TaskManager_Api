@@ -53,6 +53,39 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## :gear: Rotas da Api
 
+
+<table>
+    <tr>
+        <td>Route</td>
+        <td>Verb</td>
+    </tr>
+    <tr>
+        <td>/users</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>/auth</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>/forgotPassword</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>/resetPassword</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>/file/:id</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>/file</td>
+        <td></td>
+    </tr>
+</table>
+
+<!--
 │ Route                            │ Verb(s)   │
 
 
@@ -72,7 +105,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 │`/projects/:projects_id/tasks/:id`│ HEAD,GET  │
 │`/projects/:projects_id/tasks/:id`│ PUT,PATCH │
 │`/projects/:projects_id/tasks/:id`│ DELETE    │
-
+-->
 
 ### STATUS DAS RESPOSTAS
 
