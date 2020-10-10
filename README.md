@@ -61,51 +61,69 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
     </tr>
     <tr>
         <td>/users</td>
-        <td></td>
+        <td>POST</td>
     </tr>
     <tr>
         <td>/auth</td>
-        <td></td>
+        <td>POST</td>
     </tr>
     <tr>
         <td>/forgotPassword</td>
-        <td></td>
+        <td>POST</td>
     </tr>
     <tr>
         <td>/resetPassword</td>
-        <td></td>
+        <td>PUT</td>
     </tr>
     <tr>
         <td>/file/:id</td>
-        <td></td>
+        <td>HEAD,GET</td>
     </tr>
     <tr>
         <td>/file</td>
-        <td></td>
+        <td>POST</td>
+    </tr>
+    <tr>
+        <td>/projects</td>
+        <td>HEAD,GET</td>
+    </tr>
+    <tr>
+        <td>/projects</td>
+        <td>POST</td>
+    </tr>
+    <tr>
+        <td>/projects/:id</td>
+        <td>HEAD,GET</td>
+    </tr>
+    <tr>
+        <td>/projects/:id</td>
+        <td>PUT</td>
+    </tr>
+    <tr>
+        <td>/projects/:id</td>
+        <td>DELETE</td>
+    </tr>
+    <tr>
+        <td>/projects/:projects_id/tasks</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>/projects/:projects_id/tasks</td>
+        <td>POST</td>
+    </tr>
+    <tr>
+        <td>/projects/:projects_id/tasks/:id</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>/projects/:projects_id/tasks/:id</td>
+        <td>PUT</td>
+    </tr>
+    <tr>
+        <td>/projects/:projects_id/tasks/:id</td>
+        <td>DELETE</td>
     </tr>
 </table>
-
-<!--
-│ Route                            │ Verb(s)   │
-
-
-│ `/users `                        │ POST      │
-│ `/auth`                          │ POST      │
-│ `/forgotPassword`                │ POST      │
-│ `/resetPassword`                 │ PUT       │
-│ `/file/:id`                      │ HEAD,GET  │
-│ `/file`                          │ POST      │
-│ `/projects`                      │ HEAD,GET  │
-│ `/projects`                      │ POST      │
-│ `/projects/:id`                  │ HEAD,GET  │
-│ `/projects/:id`                  │ PUT,PATCH │
-│ `/projects/:id`                  │ DELETE    │
-│ `/projects/:projects_id/tasks`   │ HEAD,GET  │
-│ `/projects/:projects_id/tasks`   │ POST      │
-│`/projects/:projects_id/tasks/:id`│ HEAD,GET  │
-│`/projects/:projects_id/tasks/:id`│ PUT,PATCH │
-│`/projects/:projects_id/tasks/:id`│ DELETE    │
--->
 
 ### STATUS DAS RESPOSTAS
 
